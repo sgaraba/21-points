@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.sgaraba.health",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.6.0",
+    "applicationType": "monolith",
+    "baseName": "TwentyOnePoints",
+    "packageName": "com.sgaraba.health",
+    "packageFolder": "com/sgaraba/health",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NjJjOTZjNTQ5MTE4OWM1NmI2YjIzNTYyOTU5N2I2NGZiMjhiMTkxZGJlZmQ1OWM3YTgyNzJhZDAxNzY1NjM3NWY1NjJlMTYxMGU0OGIzOTI5YjdlZTVlOGYxNjIyMzMwYTA5NGEwNzNlMDE5NmU1Y2QwOTQxZDJiNDFiYzFmODE=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1580040142669,
+    "testFrameworks": ["gatling", "protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": ["en", "ro", "ru"],
+    "blueprints": []
+  }
+}
