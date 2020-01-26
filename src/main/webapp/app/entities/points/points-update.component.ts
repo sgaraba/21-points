@@ -18,7 +18,7 @@ import { UserService } from 'app/core/user/user.service';
 })
 export class PointsUpdateComponent implements OnInit {
   isSaving = false;
-
+  points: IPoints;
   users: IUser[] = [];
   dateDp: any;
 
@@ -37,12 +37,12 @@ export class PointsUpdateComponent implements OnInit {
     protected userService: UserService,
     protected activatedRoute: ActivatedRoute,
     private fb: FormBuilder
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     this.activatedRoute.data.subscribe(({ points }) => {
+      this.points = points;
       this.updateForm(points);
-
       this.userService
         .query()
         .pipe(
@@ -72,11 +72,15 @@ export class PointsUpdateComponent implements OnInit {
 
   save(): void {
     this.isSaving = true;
-    const points = this.createFromForm();
-    if (points.id !== undefined) {
-      this.subscribeToSaveResponse(this.pointsService.update(points));
+
+    // convert booleans to ints
+    this.points.exercise = this.points.exercise ? 1 : 0;
+    this.points.meals = this.points.meals ? 1 : 0;
+    this.points.alcohol = this.points.alcohol ? 1 : 0;
+    if (this.points.id !== undefined) {
+      this.subscribeToSaveResponse(this.pointsService.update(this.points));
     } else {
-      this.subscribeToSaveResponse(this.pointsService.create(points));
+      this.subscribeToSaveResponse(this.pointsService.create(this.points));
     }
   }
 
