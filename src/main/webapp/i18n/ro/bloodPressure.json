@@ -1,0 +1,26 @@
+{
+  "twentyOnePointsApp": {
+    "bloodPressure": {
+      "home": {
+        "title": "Blood Pressures",
+        "createLabel": "Creeare o nouă entitate Blood Pressure",
+        "createOrEditLabel": "Creeare sau editare Blood Pressure",
+        "search": "Căutare după Blood Pressure",
+        "notFound": "No Blood Pressures found"
+      },
+      "created": "A fost creată o nouă entitate Blood Pressure cu identificatorul {{ param }}",
+      "updated": "Blood Pressure cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Blood Pressure cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Blood Pressure {{ id }}?"
+      },
+      "detail": {
+        "title": "Blood Pressure"
+      },
+      "timestamp": "Timestamp",
+      "systolic": "Systolic",
+      "diastolic": "Diastolic",
+      "user": "User"
+    }
+  }
+}

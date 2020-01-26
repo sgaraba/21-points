@@ -10,6 +10,10 @@
         "bankAccount": "ContBancar",
         "label": "Etichetă",
         "operation": "Operație",
+        "points": "Points",
+        "weight": "Weight",
+        "preferences": "Preferences",
+        "bloodPressure": "Blood Pressure",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

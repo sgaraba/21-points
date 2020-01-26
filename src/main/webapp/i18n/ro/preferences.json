@@ -1,0 +1,25 @@
+{
+  "twentyOnePointsApp": {
+    "preferences": {
+      "home": {
+        "title": "Preferences",
+        "createLabel": "Creeare o nouă entitate Preferences",
+        "createOrEditLabel": "Creeare sau editare Preferences",
+        "search": "Căutare după Preferences",
+        "notFound": "No Preferences found"
+      },
+      "created": "A fost creată o nouă entitate Preferences cu identificatorul {{ param }}",
+      "updated": "Preferences cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Preferences cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Preferences {{ id }}?"
+      },
+      "detail": {
+        "title": "Preferences"
+      },
+      "weeklyGoal": "Weekly Goal",
+      "weightUnits": "Weight Units",
+      "user": "User"
+    }
+  }
+}

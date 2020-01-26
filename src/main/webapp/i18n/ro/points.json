@@ -1,0 +1,28 @@
+{
+  "twentyOnePointsApp": {
+    "points": {
+      "home": {
+        "title": "Points",
+        "createLabel": "Creeare o nouă entitate Points",
+        "createOrEditLabel": "Creeare sau editare Points",
+        "search": "Căutare după Points",
+        "notFound": "No Points found"
+      },
+      "created": "A fost creată o nouă entitate Points cu identificatorul {{ param }}",
+      "updated": "Points cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Points cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Points {{ id }}?"
+      },
+      "detail": {
+        "title": "Points"
+      },
+      "date": "Date",
+      "exercise": "Exercise",
+      "meals": "Meals",
+      "alcohol": "Alcohol",
+      "notes": "Notes",
+      "user": "User"
+    }
+  }
+}

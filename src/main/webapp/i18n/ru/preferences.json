@@ -1,0 +1,25 @@
+{
+  "twentyOnePointsApp": {
+    "preferences": {
+      "home": {
+        "title": "Preferences",
+        "createLabel": "Создать новый Preferences",
+        "createOrEditLabel": "Создать или отредактировать Preferences",
+        "search": "Найти Preferences",
+        "notFound": "No Preferences found"
+      },
+      "created": "Новый Preferences создан с идентификатором {{ param }}",
+      "updated": "Preferences обновлен с идентификатором {{ param }}",
+      "deleted": "Preferences удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Preferences {{ id }}?"
+      },
+      "detail": {
+        "title": "Preferences"
+      },
+      "weeklyGoal": "Weekly Goal",
+      "weightUnits": "Weight Units",
+      "user": "User"
+    }
+  }
+}
